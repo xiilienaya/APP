@@ -67,7 +67,7 @@ export default class My extends Component {
           });
     }
     exit=()=>{
-        AsyncStorage.setItem("user",null);
+        AsyncStorage.setItem("user","");
         Actions.login();
     }
     render() {
